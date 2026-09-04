@@ -5,11 +5,14 @@ export default function SiteHeader() {
   return (
     <header className="border-b border-line">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
-        <Link href="/" className="flex flex-col items-start">
-          <Image src="/logo.png" alt="15530253 Canada Association logo" width={121} height={90} priority />
-          <span className="mt-1 text-xs font-medium tracking-[0.02em] text-ink-soft">
-            publishforyou.com
-          </span>
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            alt="publishforyou.com — 15530253 Canada Association logo"
+            width={132}
+            height={96}
+            priority
+          />
         </Link>
         <div className="flex flex-col items-end gap-3">
           <nav className="flex items-center gap-6">
