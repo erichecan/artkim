@@ -97,7 +97,7 @@ export default async function BookPage({
                 </span>
               </div>
               <p className="mt-3 text-xs text-ink-soft">
-                ISBN {book.isbn} · Secure checkout via Stripe. Ships across Canada.
+                ISBN {book.isbn} · Secure checkout via Stripe. Ships across Canada, Asia, Europe, the United States, and worldwide.
               </p>
             </div>
           </div>

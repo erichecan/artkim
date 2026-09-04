@@ -53,6 +53,12 @@ export default function AboutPage() {
               objectives and to support educational, cultural, artistic, and
               community-focused initiatives.
             </p>
+            <p>
+              Contact:{" "}
+              <a href="mailto:15530253ca@gmail.com" className="underline hover:text-ink">
+                15530253ca@gmail.com
+              </a>
+            </p>
           </div>
         </div>
       </main>
